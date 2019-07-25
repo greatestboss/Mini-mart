@@ -1,0 +1,108 @@
+#text{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(131, 133, 131);
+}
+
+#clickhere{
+    text-align: center;
+    margin: auto;
+}
+
+#works{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    grid-area: works;
+    background-color: rgb(131, 133, 131);   
+}
+#frame{
+    margin-left: 90px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "born mil bred";
+    padding: 100px;
+}
+
+#born{
+    text-align: left;
+    display: grid;
+    grid-template-areas:
+    "img1"
+    "price1"
+    "Q1"
+    "buttons";
+    grid-area: born;
+}
+#b{
+    border: 1px solid white;
+    grid-area: price1;
+    width: 300px;
+}
+#Q1{
+    grid-area: Q1;
+}
+#bournvita{
+    width: 240px;
+}
+.buttons{
+    display: grid;
+    grid-area: buttons;
+    grid-template-areas:
+    "add subtract";
+    width: 304px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+}
+#mil{
+    text-align: left;
+    display: grid;
+    grid-template-areas:
+    "img1"
+    "price2"
+    "Q2"
+    "buttons";
+    grid-area: mil;
+}
+#Q2{
+    grid-area: Q2;
+}
+#milk{
+    width: 240px;
+}
+#m{
+    border: 1px solid white;
+    grid-area: price2;
+    width: 300px;
+}
+#bred{
+    text-align: left;
+    display: grid;
+    grid-template-areas:
+    "img1"
+    "price3"
+    "Q3"
+    "buttons";
+    grid-area: bred;
+}
+#bread{
+    width: 240px;
+}
+#br{
+    border: 1px solid white;
+    grid-area: price3;
+    width: 300px;
+}
+.add{
+    grid-area: add;
+}
+.subtract{
+    grid-area: subtract;
+}
+
+#Q3{
+    grid-area: Q3;
+}
